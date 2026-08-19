@@ -2,6 +2,12 @@
 
 A first-person 3D balloon-defense game built in C++ with modern OpenGL. The player looks around from a tower, shoots falling balloons, and tries to prevent any balloon from reaching the ground.
 
+## Output Video
+
+[![Watch the gameplay output video](https://drive.google.com/thumbnail?id=14Tgp8xRURTGbS4DHvnSRGTu9-ikXec_T&sz=w1200)](https://drive.google.com/file/d/14Tgp8xRURTGbS4DHvnSRGTu9-ikXec_T/view?usp=sharing)
+
+[Open the gameplay output video on Google Drive](https://drive.google.com/file/d/14Tgp8xRURTGbS4DHvnSRGTu9-ikXec_T/view?usp=sharing)
+
 ## Suggested repository name
 
 `opengl-3d-balloon-shooter`
