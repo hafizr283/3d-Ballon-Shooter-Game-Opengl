@@ -8,12 +8,6 @@ A first-person 3D balloon-defense game built in C++ with modern OpenGL. The play
 
 [Open the gameplay output video on Google Drive](https://drive.google.com/file/d/14Tgp8xRURTGbS4DHvnSRGTu9-ikXec_T/view?usp=sharing)
 
-## Suggested repository name
-
-`opengl-3d-balloon-shooter`
-
-Other good choices are `3d-balloon-defense` and `cpp-opengl-balloon-shooter`. The first name is the clearest because it identifies both the technology and the game.
-
 ## What is implemented
 
 - First-person camera with mouse look and WASD movement, plus vertical movement.
@@ -133,15 +127,3 @@ The generated executable is normally placed under `x64\\Debug\\` or `x64\\Releas
 - **Cannot open GLM headers:** add the directory containing the `glm` folder to the include path.
 - **Shaders/textures not found:** run from the repository/project directory; the program loads shader filenames and `image/...` using relative paths.
 - **Black or incomplete scene:** confirm that an OpenGL 3.3-capable graphics driver is installed.
-
-## Git recommendations
-
-Commit source, shaders, headers, project files, and the required `image/` assets. Do not commit generated Visual Studio output (`x64/`, `.vs/`, `.user` files), temporary logs, or the ZIP archives unless they are intentionally being used as release artifacts. A small `.gitignore` for Visual Studio build output should be added before the first push.
-
-## Academic context
-
-The project includes `assignment.tex`, presentation material, and screenshots related to a computer-graphics laboratory assignment. The game itself is implemented in `main.cpp` and uses the accompanying shader and geometry helper files.
-
-## License
-
-No license is currently declared. Add a license file (for example MIT) before publishing if you want others to reuse or modify the project.
