@@ -1,0 +1,22 @@
+# Visual Studio / MSBuild
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.suo
+*.vcxproj.user
+*.pdb
+*.ilk
+*.obj
+*.tlog/
+*.log
+
+# Generated binaries and archives
+*.exe
+*.dll
+*.lib
+*.zip
+
+# IDE/editor files
+.vscode/settings.json
